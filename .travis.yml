@@ -3,6 +3,6 @@ node_js:
 - "6.11.2"
 script:
 - npm install
-- nyc mocha
+- nyc mocha ./test
 - gulp
 - gulp debug
