@@ -1,0 +1,25 @@
+{
+  "name": "xsdom-parser",
+  "version": "1.0.0",
+  "description": "DOM parser that works inside a webworker",
+  "main": "index.js",
+  "scripts": {
+    "test": "nyc mocha",
+    "postinstall": "gulp && gulp debug && nyc mocha"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babelify": "^8.0.0",
+    "browserify": "^14.5.0",
+    "gulp": "^3.9.1",
+    "gulp-sourcemaps": "^2.6.1",
+    "gulp-uglify": "^3.0.0",
+    "mocha": "^4.0.1",
+    "nyc": "^11.3.0",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0"
+  }
+}
