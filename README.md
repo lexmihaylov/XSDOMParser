@@ -1,6 +1,8 @@
 # XSDOMParser
 
 ![alt travis ci](https://travis-ci.org/lexmihaylov/XSDOMParser.svg?branch=master)
+[![Maintainability](https://api.codeclimate.com/v1/badges/b5bfb5f16f5c75c8330b/maintainability)](https://codeclimate.com/github/lexmihaylov/XSDOMParser/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/b5bfb5f16f5c75c8330b/test_coverage)](https://codeclimate.com/github/lexmihaylov/XSDOMParser/test_coverage)
 
 XSDOMParser is an atempt to support native dom parser in webworkers. The library can work
 inside a browser or on nodejs. Although the aim was for this to be a polyfill for 
